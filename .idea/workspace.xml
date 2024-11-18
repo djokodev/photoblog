@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d198c80-35e3-40e0-a991-9bf3fe1ec051" name="Changes" comment="Add home view with login required&#10;&#10;Updated the Django project to include a home view that requires login. Modified the URL routing and templates to support the new view. Adjusted authentication flow to redirect to the home view upon successful login.">
-      <change afterPath="$PROJECT_DIR$/authentication/templates/authentication/password_change_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/templates/authentication/password_change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/templates/authentication/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/validators.py" afterDir="false" />
+    <list default="true" id="3d198c80-35e3-40e0-a991-9bf3fe1ec051" name="Changes" comment="Add home view with login required&#10;&#10;Updated the Django project to include a home view that requires login. Modified URL routing, templates, and authentication flow to support the new view. Introduced new templates for signup and password change functionalities, and added custom password validation.">
+      <change afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/photo_upload.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/templates/authentication/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/templates/authentication/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photoblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/photoblog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photoblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/photoblog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -107,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731915040543</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add home view with login required&#10;&#10;Updated the Django project to include a home view that requires login. Modified URL routing, templates, and authentication flow to support the new view. Introduced new templates for signup and password change functionalities, and added custom password validation.">
+      <option name="closed" value="true" />
+      <created>1731919500523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731919500523</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +120,7 @@
     <MESSAGE value="Initialize Django project and add initial config files&#10;&#10;Set up the basic structure for the &quot;photoblog&quot; Django project. Added `.gitignore`, `manage.py`, `requirements.txt`, and initial Django project and app files including settings, URLs, and WSGI/ASGI configurations." />
     <MESSAGE value="Initialize Django project with custom user model and authentication.&#10;&#10;Set up the basic structure for the &quot;photoblog&quot; project, including a custom user model, login/logout views, templates, and forms. Integrated initial configurations and dependencies for the project." />
     <MESSAGE value="Add home view with login required&#10;&#10;Updated the Django project to include a home view that requires login. Modified the URL routing and templates to support the new view. Adjusted authentication flow to redirect to the home view upon successful login." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add home view with login required&#10;&#10;Updated the Django project to include a home view that requires login. Modified the URL routing and templates to support the new view. Adjusted authentication flow to redirect to the home view upon successful login." />
+    <MESSAGE value="Add home view with login required&#10;&#10;Updated the Django project to include a home view that requires login. Modified URL routing, templates, and authentication flow to support the new view. Introduced new templates for signup and password change functionalities, and added custom password validation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add home view with login required&#10;&#10;Updated the Django project to include a home view that requires login. Modified URL routing, templates, and authentication flow to support the new view. Introduced new templates for signup and password change functionalities, and added custom password validation." />
   </component>
 </project>
