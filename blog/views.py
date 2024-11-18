@@ -1,4 +1,4 @@
-from django.contrib.auth.decorators import login_required
+from django.contrib.auth.decorators import login_required, permission_required
 from django.shortcuts import redirect, render
 from django.shortcuts import get_object_or_404
 from . import forms, models
@@ -54,6 +54,7 @@ def blog_and_photo_upload(request):
     return render(request, 'blog/create_blog_post.html', context=context)
 
 @login_required
+@permission_required('blog.add_photo', raise_exception=True)
 def photo_upload(request):
     form = forms.PhotoForm()
     if request.method == 'POST':
