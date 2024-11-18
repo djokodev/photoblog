@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d198c80-35e3-40e0-a991-9bf3fe1ec051" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/photoblog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3d198c80-35e3-40e0-a991-9bf3fe1ec051" name="Changes" comment="Initialize Django project and add initial config files&#10;&#10;Set up the basic structure for the &quot;photoblog&quot; Django project. Added `.gitignore`, `manage.py`, `requirements.txt`, and initial Django project and app files including settings, URLs, and WSGI/ASGI configurations.">
+      <change afterPath="$PROJECT_DIR$/authentication/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication/templates/authentication/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photoblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/photoblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photoblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/photoblog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,11 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\djokodev\PycharmProjects\photoblog\authentication\templates" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,6 +72,28 @@
       <option name="presentableId" value="Default" />
       <updated>1731795200813</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add initial IntelliJ IDEA project configuration files&#10;&#10;Integrated essential IntelliJ IDEA project files for setup, including module, workspace, VCS, and other configuration settings. This configuration ensures proper module structure and version control settings specific to the photoblog project.">
+      <option name="closed" value="true" />
+      <created>1731796266608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731796266608</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initialize Django project and add initial config files&#10;&#10;Set up the basic structure for the &quot;photoblog&quot; Django project. Added `.gitignore`, `manage.py`, `requirements.txt`, and initial Django project and app files including settings, URLs, and WSGI/ASGI configurations.">
+      <option name="closed" value="true" />
+      <created>1731796363576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731796363576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add initial IntelliJ IDEA project configuration files&#10;&#10;Integrated essential IntelliJ IDEA project files for setup, including module, workspace, VCS, and other configuration settings. This configuration ensures proper module structure and version control settings specific to the photoblog project." />
+    <MESSAGE value="Initialize Django project and add initial config files&#10;&#10;Set up the basic structure for the &quot;photoblog&quot; Django project. Added `.gitignore`, `manage.py`, `requirements.txt`, and initial Django project and app files including settings, URLs, and WSGI/ASGI configurations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialize Django project and add initial config files&#10;&#10;Set up the basic structure for the &quot;photoblog&quot; Django project. Added `.gitignore`, `manage.py`, `requirements.txt`, and initial Django project and app files including settings, URLs, and WSGI/ASGI configurations." />
   </component>
 </project>
