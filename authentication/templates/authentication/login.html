@@ -5,8 +5,5 @@
         {{ form.as_p }}
         {% csrf_token %}
         <button type="submit" >Se connecter</button>
-          {% if user.is_authenticated %}
-            <p>Vous êtes connecté en tant que {{ request.user }}. <a href="{% url 'logout' %}">Se déconnecter</a></p>
-        {% endif %}
     </form>
 {% endblock content %}

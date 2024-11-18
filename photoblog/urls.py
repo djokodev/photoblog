@@ -19,9 +19,11 @@ from tkinter.font import names
 from django.contrib import admin
 from django.urls import path
 from authentication.views import login_page, logout_user
+from blog.views import home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', login_page, name='login'),
     path('logout/', logout_user, name='logout'),
+    path('home/', home, name='home'),
 ]
