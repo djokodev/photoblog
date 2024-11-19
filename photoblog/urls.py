@@ -6,7 +6,7 @@ from django.contrib.auth.views import (
 from django.urls import path
 
 from authentication.views import signup_page, upload_profile_photo
-from blog.views import home, photo_upload, blog_and_photo_upload, view_blog, edit_blog
+from blog.views import home, photo_upload, blog_and_photo_upload, view_blog, edit_blog, follow_users
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,6 +24,7 @@ urlpatterns = [
         name='password_change_done'
          ),
     path('signup/', signup_page, name='signup'),
+    path('follow-users/', follow_users, name='follow_users'),
     path('blog/create', blog_and_photo_upload, name='blog_create'),
     path('blog/<int:blog_id>', view_blog, name='view_blog'),
     path('blog/<int:blog_id>/edit', edit_blog, name='edit_blog'),
